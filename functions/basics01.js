@@ -44,10 +44,7 @@ console.log(myObj.isEven(19)); // false
 // 2. isOdd is a function that determines if a given number is odd or not. Use the isEven function
 
 myObj.isOdd = function (givenNum) {
-if (givenNum % 2 !== 0) {
-        return true;
-    }
-    return false;
+
 };
 
 console.log(myObj.isOdd(10)) // false;
@@ -55,7 +52,7 @@ console.log(myObj.isOdd(5)) // true
 // 3. square - Write a function that provides the square of a given a number
 
 myObj.squared = function (square) {
-if (number * number)
+
 };
 
 console.log(myObj.squared(4)) // 16
